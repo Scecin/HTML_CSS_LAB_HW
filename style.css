@@ -1,0 +1,42 @@
+header {
+    background-color: dodgerblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#list_aligned_right {
+    list-style-position: inside;
+    list-style: none;
+    display: table-cell;
+    vertical-align: bottom;
+    /* text-align: right; */
+}
+
+#list_aligned_right li {
+    display: inline;
+
+}
+
+#list_aligned_right li a {
+    color: white;
+
+}
+
+#div_header_left, #div_header_right {
+    display: inline-block;
+}
+
+#div_header_right {
+    float: right;
+}
+
+
+/* body > header > nav > {
+    padding: 0px
+} */
+/* 
+body>header>nav>ul>li>a{
+    color: white; 
+    display: inline;
+} */
