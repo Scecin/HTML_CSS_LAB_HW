@@ -1,42 +1,61 @@
-header {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > header {
     background-color: dodgerblue;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-
+    padding: 16px; 
 }
 
-#list_aligned_right {
-    list-style-position: inside;
-    list-style: none;
-    display: table-cell;
-    vertical-align: bottom;
-    /* text-align: right; */
+#logo {
+    padding-left: 16px;
 }
 
-#list_aligned_right li {
-    display: inline;
-
+#logo, #header_navigation {
+    display: inline-block
 }
 
-#list_aligned_right li a {
-    color: white;
-
+#header_navigation {
+    float: right;
+    padding: 16px;
 }
 
-#div_header_left, #div_header_right {
+#header_navigation nav ul li {
     display: inline-block;
 }
 
-#div_header_right {
-    float: right;
+#header_navigation nav ul li a {
+    color: white;
 }
 
+body > main {
+    padding-left: 100px;
+}
 
-/* body > header > nav > {
-    padding: 0px
-} */
-/* 
-body>header>nav>ul>li>a{
-    color: white; 
-    display: inline;
-} */
+#login_and_categories {
+    padding-right: 16px;
+    float: left;
+    padding-bottom: 250px;
+}
+ #latest {
+     padding: 16px;
+     
+ }
+
+body > footer {
+    background-color: dodgerblue;
+    color: white;
+    padding: 16px; 
+    text-align: center;
+}
+
+body > main > form >input {
+    height: 100px;
+    width:max-content;
+}
+
+#buttom {
+    height: 30px;
+    float: right;
+}
